@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  box-shadow: 0 10px 6px -6px #777;
+}
+body nav .nav-left {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body nav .nav-left p {
+  font-size: 40px;
+  color: blue;
+}
+body nav .nav-rayt {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body nav .nav-rayt ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 20px;
+}
+body nav .nav-rayt ul li {
+  font-size: 19px;
+  color: rgb(48, 48, 255);
+}
+body .seh-1 {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(0, 110, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 7px;
+}
+body .seh-1 .seh-1-left {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body .seh-1 .seh-1-left p {
+  font-size: 60px;
+  text-align: start;
+  color: white;
+}
+body .seh-1 .seh-1-left .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body .seh-1 .seh-1-left .button button {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 8px;
+  background-color: rgb(0, 81, 156);
+  color: white;
+  font-size: 16px;
+}
+body .seh-1 .seh-1-right {
+  width: 500px;
+  height: 400px;
+  background-image: url(https://www.webcaty.com/wp-content/uploads/2021/10/responsive-website-designing-company-in-delhi.jpg);
+  background-size: 100% 100%;
+}
+body .seh-2 {
+  width: 100%;
+  height: 3000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .seh-2 .about-1 {
+  width: 1100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body .seh-2 .about-1 h2 {
+  font-size: 35px;
+  color: rgb(19, 18, 18);
+}
+body .seh-2 .about-1 p {
+  color: rgb(48, 47, 47);
+  font-size: 18px;
+}
+body .seh-2 .about-2 {
+  width: 1100px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+body .seh-2 .about-2 .about-2-left {
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .seh-2 .about-2 .about-2-left .p {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body .seh-2 .about-2 .about-2-right {
+  width: 470px;
+  height: 360px;
+  background-size: 100% 100%;
+  background-image: url(https://th.bing.com/th/id/OIP.BVsQq2zR2YQDjazIbPlWCwAAAA?rs=1&pid=ImgDetMain);
+}
+body .seh-3 {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+body .seh-3 .seh-3-top {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .seh-3 .seh-3-top h2 {
+  font-size: 40px;
+  color: rgb(8, 56, 110);
+}
+body .seh-3 .seh-3-top p {
+  font-size: 20px;
+  text-align: center;
+}
+body .seh-3 .seh-3-bottom {
+  width: 100%;
+  height: 750px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  align-content: center;
+}
+body .seh-3 .seh-3-bottom .s-3-b-div {
+  width: 40%;
+  height: 190px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  gap: 20px;
+}
+body .seh-3 .seh-3-bottom .s-3-b-div i {
+  color: aqua;
+  font-size: 50px;
+  margin-left: -15px;
+}
+body .seh-3 .seh-3-bottom .s-3-b-div .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .seh-3 .seh-3-bottom .s-3-b-div .text h2 {
+  font-size: 20px;
+}
+body .seh-4 {
+  width: 100%;
+  height: auto;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .seh-4 .seh-4-top {
+  padding-top: 40px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+body .seh-4 .seh-4-top h2 {
+  font-size: 30px;
+  color: white;
+}
+body .seh-4 .seh-4-top p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+body .seh-4 .seh-4-center {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .seh-4 .seh-4-center .div3:hover {
+  background-color: rgb(12, 12, 129);
+}
+body .seh-4 .seh-4-center .div3 {
+  width: 25%;
+  height: 300px;
+  background-color: rgb(8, 43, 240);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+body .seh-4 .seh-4-center .div3 i {
+  color: white;
+  font-size: 30px;
+}
+body .seh-4 .seh-4-center .div3 .textt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+body .seh-4 .seh-4-center .div3 .textt h3 {
+  color: white;
+  font-size: 20px;
+}
+body .seh-4 .seh-4-center .div3 .textt p {
+  color: white;
+}
+body .seh-4 .seh-4-center .div3 a {
+  color: white;
+  font-size: 18px;
+}
+body .seh-4 .seh-4-bottom {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+body .seh-4 .seh-4-bottom .div-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3px;
+}
+body .seh-4 .seh-4-bottom .div-4 h2 {
+  color: white;
+  font-size: 45px;
+}
+body .seh-4 .seh-4-bottom .div-4 p {
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=mode.css.map */
